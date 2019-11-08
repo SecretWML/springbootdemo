@@ -37,7 +37,7 @@ public class RedisValueTests {
     System.out.println(user1.toString());
   }
 
-  //操作集合(List和Hash)
+  //操作集合(List和Hash) 见其他
 
 
 //  @Test

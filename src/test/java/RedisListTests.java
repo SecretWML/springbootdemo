@@ -3,7 +3,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -31,10 +30,10 @@ public class RedisListTests {
   public void listGetListResitTest() {
     // 查询类别所有元素
     List<String> listAll = stringRedisTemplate.opsForList().range("myList", 0, -1);
-    logger.info("list all {}", listAll);
+    System.out.println("list all "+ listAll);
     // 查询前3个元素
     List<String> list = stringRedisTemplate.opsForList().range("myList", 0, 3);
-    logger.info("list limit {}", list);
+    System.out.println("list limit "+ list);
   }
 
   @Test
