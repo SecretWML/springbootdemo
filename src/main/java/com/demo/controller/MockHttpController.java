@@ -1,8 +1,11 @@
 package com.demo.controller;
 
+import Utils.JsonUtil;
 import com.demo.param.MockResponse;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.io.File;
 
 @RestController
 public class MockHttpController {
@@ -14,10 +17,10 @@ public class MockHttpController {
     return res;
   }
 
-  @RequestMapping("/zjian.crm.customer.coupons.silence.use")
+  @RequestMapping("/crm/goodscouponservice/query_pickup_goods_info")
   public String get(){
-    String str = "{\n" + "    \"code\": \"501\",\n" + "    \"desc\": \"服务器内部错误,请联系管理员\",\n"
-      + "    \"data\": null\n" + "}";
+    String filePath = "C:\\workspace\\ideaGit\\test\\src\\main\\resources\\debugfile\\debug.json";
+    String str = JsonUtil.readJsonFile(new File(filePath));
     return str;
   }
 }

@@ -1,0 +1,29 @@
+{
+    "voucherNumber": "12345678",
+    "storeNumber": "0001",
+    "resultCode": "1",
+    "errorMsg": "",
+    "onLineMoney": "10",
+    "voucherTypeName": "提货券",
+    "voucherTypeCode": "01",
+    "orderProducts": [
+        {
+            "lineNumber": "01",
+            "productNumber": "020506",
+            "productName": "打火机",
+            "quantity": "2",
+            "initPrice": "15",
+            "nowPrice": "10",
+            "payMoney": "20"
+        },
+        {
+            "lineNumber": "02",
+            "productNumber": "021381",
+            "productName": "打火机2",
+            "quantity": "1",
+            "initPrice": "20",
+            "nowPrice": "5",
+            "payMoney": "5"
+        }
+    ]
+}

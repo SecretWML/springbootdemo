@@ -1,0 +1,4 @@
+test:
+  name: zll
+  password: 888
+  url: http://localhost:18080
