@@ -29,7 +29,8 @@ public class TestController {
 
   //自定义配置测试
 
-  @Autowired TestConfig testConfig;
+  @Autowired
+  TestConfig testConfig;
 
   @Value("${test.url}")
   String url;
