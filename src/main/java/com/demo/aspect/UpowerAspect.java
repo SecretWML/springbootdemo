@@ -9,6 +9,9 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
+/**
+ *  https://www.cnblogs.com/oldboyooxx/p/9245593.html
+ * */
 @Component
 @Aspect
 public class UpowerAspect {

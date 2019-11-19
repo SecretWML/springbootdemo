@@ -8,6 +8,11 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
+/**
+ *  Redis: https://www.jianshu.com/p/56999f2b8e3b
+ *        https://blog.csdn.net/qq_42894896/article/details/84260908
+ */
+
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes= TestApplication.class)
 public class RedisValueTests {
