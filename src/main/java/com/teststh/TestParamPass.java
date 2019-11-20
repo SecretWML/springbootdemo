@@ -10,7 +10,6 @@ public class TestParamPass {
      * String - 参数不会变
      */
     public static void main(String[] args) {
-        //test
         String s = "oldString";
         System.out.println("before : " + s);
         testString(s);
