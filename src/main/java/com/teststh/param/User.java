@@ -1,14 +1,16 @@
 package com.teststh.param;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class User {
+public class User implements Serializable, Comparable<User> {
   private int id;
   private String loginId;
   private String userName;
   private String email;
   private List<String> str = new ArrayList<>();
+  private int age;
 
   public int getId() {
     return id;
@@ -50,8 +52,22 @@ public class User {
     this.str = str;
   }
 
+  public int getAge() {
+    return age;
+  }
+
+  public void setAge(int age) {
+    this.age = age;
+  }
+
   public User(){
 
+  }
+
+  public User(int id, String userName, int age) {
+    this.id = id;
+    this.userName = userName;
+    this.age = age;
   }
 
   public User(int id,String loginId,String userName,String email,List<String> str){
@@ -70,6 +86,12 @@ public class User {
     sb.append("userName="+getUserName()+"\n");
     sb.append("email="+getEmail()+"\n");
     sb.append("str="+getStr().toString()+"\n");
+    sb.append("age=" + getAge() + "\n");
     return sb.toString();
+  }
+
+  @Override
+  public int compareTo(User o) {
+    return 0;
   }
 }
