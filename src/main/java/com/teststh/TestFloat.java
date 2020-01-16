@@ -14,6 +14,8 @@ public class TestFloat {
         String value1 = map.put("key1","key1");
         String value2 = map.put("key1","key2");
         System.out.println(value1 + " -- " + value2);
+
+        //Test branch
     }
 
 }
