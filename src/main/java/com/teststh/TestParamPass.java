@@ -5,9 +5,9 @@ package com.teststh;
  */
 public class TestParamPass {
     /**
-     * 数组  - 参数会变
-     * 对象 - 参数会变
-     * String - 参数不会变
+     * 数组  - 参数会变 - 引用传递
+     * 对象 - 参数会变 - 引用传递
+     * String - 参数不会变 - 值传递
      */
     public static void main(String[] args) {
         String s = "oldString";
@@ -38,6 +38,7 @@ public class TestParamPass {
 
     public static void testString(String s) {
         s = "newString";
+        System.out.println("testString  : " + s);
     }
 
     public static void testArray(String[] s) {

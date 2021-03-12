@@ -1,0 +1,98 @@
+{
+    "code": "0",
+    "message": "操作成功",
+    "data": {
+        "pageSize": 50,
+        "page": 1,
+        "pageCount": 1,
+        "recordCount": 7,
+        "records": [
+            {
+                "orderId": "1250338681446707201",
+                "mobile": "13840260420",
+                "selfTimeScope": "2020-04-14 00:00:00~2020-04-25 23:59:00",
+                "createTime": "2020-04-15 16:22:26",
+                "canRefund": "1",
+                "canPick": "1",
+                "cashTotal": "10.00",
+                "status": 5,
+                "statusName": "待自提",
+                "remark": "偏好、是否削皮等"
+            },
+            {
+                "orderId": "1250338602665095170",
+                "mobile": "13840260420",
+                "selfTimeScope": "2020-04-14 00:00:00~2020-04-25 23:59:00",
+                "createTime": "2020-04-15 16:22:08",
+                "finishedTime": "2020-04-15 16:24:43",
+                "canRefund": "0",
+                "canPick": "0",
+                "cashTotal": "2.00",
+                "status": 99,
+                "statusName": "已退款",
+                "remark": "偏好、是否削皮等"
+            },
+            {
+                "orderId": "1250334567564292097",
+                "mobile": "13840260420",
+                "selfTimeScope": "2020-04-14 00:00:00~2020-04-25 23:59:00",
+                "createTime": "2020-04-15 16:06:06",
+                "finishedTime": "2020-04-15 16:11:19",
+                "canRefund": "0",
+                "canPick": "0",
+                "cashTotal": "10.00",
+                "status": 99,
+                "statusName": "已退款"
+            },
+            {
+                "orderId": "1250334512316919810",
+                "mobile": "13840260420",
+                "selfTimeScope": "2020-04-14 00:00:00~2020-04-25 23:59:00",
+                "createTime": "2020-04-15 16:05:52",
+                "finishedTime": "2020-04-15 16:16:00",
+                "canRefund": "0",
+                "canPick": "0",
+                "cashTotal": "2.00",
+                "status": 99,
+                "statusName": "已退款"
+            },
+            {
+                "orderId": "1249984435291291649",
+                "mobile": "18057142907",
+                "selfTimeScope": "2020-04-14 00:00:00~2020-04-25 23:59:00",
+                "createTime": "2020-04-14 16:54:48",
+                "canRefund": "1",
+                "canPick": "0",
+                "cashTotal": "2.00",
+                "status": 98,
+                "statusName": "已退款",
+                "remark": "偏好、是否削皮等"
+            },
+            {
+                "orderId": "1249938255199035394",
+                "mobile": "13840260420",
+                "selfTimeScope": "2020-04-14 00:00:00~2020-04-25 23:59:00",
+                "createTime": "2020-04-14 13:51:17",
+                "canRefund": "0",
+                "canPick": "0",
+                "cashTotal": "2.00",
+                "status": 99,
+                "statusName": "已退款",
+                "remark": "偏好、是否削皮等"
+            },
+            {
+                "orderId": "1249938149540323329",
+                "mobile": "13840260420",
+                "selfTimeScope": "2020-04-14 00:00:00~2020-04-25 23:59:00",
+                "createTime": "2020-04-14 13:50:52",
+                "finishedTime": "2020-04-14 16:16:32",
+                "canRefund": "0",
+                "canPick": "0",
+                "cashTotal": "2.00",
+                "status": 99,
+                "statusName": "已退款",
+                "remark": "偏好、是否削皮等"
+            }
+        ]
+    }
+}

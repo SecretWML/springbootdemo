@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "message": "操作成功",
+    "data": {
+        "signParam": "XXX",
+        "storeNumber": "34010100",
+        "orderId": "1240098558992629761",
+        "storeName": "9901店",
+        "mobile": "15755114111",
+        "selfTimeScope": "2020-03-16 00:00:00~2020-03-20 23:59:00",
+        "status": 100,
+        "statusName": "已完成",
+        "canRefund": "1",
+        "canPick": "0",
+        "createTime": "20201119235959",
+        "finishedTime": "20200410111111",
+        "remark": "切一下",
+        "cashTotal": 50,
+        "products": [
+            {
+                "productId": "123465189",
+                "name": "天润冰淇淋化了酸奶",
+                "description": "小巧清甜",
+                "price": 10.00,
+                "productNum": 1,
+                "productAmount": 10.00
+                
+            },{
+                "productId": "20161101",
+                "name": "薯片",
+                "description": "乐事",
+                "price": 5.00,
+                "productNum": 3,
+                "productAmount": 15.00
+            },{
+                "productId": "20161102",
+                "name": "关东煮",
+                "description": "全家",
+                "price": 10.00,
+                "productNum": 3,
+                "productAmount": 30.00
+            }
+        ]
+    }
+}

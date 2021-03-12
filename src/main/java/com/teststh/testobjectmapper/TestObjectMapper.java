@@ -1,12 +1,12 @@
 package com.teststh.testobjectmapper;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.teststh.param.User;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -50,6 +50,13 @@ public class TestObjectMapper {
             JavaType javaType = objectMapper.getTypeFactory().constructParametricType(List.class, String.class);
             List<String> returnList = objectMapper.readValue(listJsonStr,javaType);
             System.out.println("反序列化list:"+returnList.toString());
+
+            //序列化JsonArray
+            String[] arr = new String[]{"1","2"};
+//            arr.put("1");
+//            arr.put("2");
+           String str =  objectMapper.writeValueAsString(arr);
+            System.out.println("序列化JsonArray:"+ str);
         }catch (Exception e){
             e.printStackTrace();
         }
